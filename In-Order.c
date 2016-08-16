@@ -45,4 +45,7 @@ void inOrder(Node *root){
 void postOrder(Node *root){
      if(root != NULL){
      postOrder(root->kiri);
-              
+     postOrder(root->kanan);
+     printf("%d ", root->data); 
+     }
+}
