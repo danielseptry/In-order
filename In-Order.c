@@ -50,3 +50,7 @@ void postOrder(Node *root){
      }
 }
 main(){
+     int pil, c;
+     Node *pohon, *t;
+     pohon = NULL;
+     do{
