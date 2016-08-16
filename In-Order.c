@@ -87,3 +87,8 @@ case 1 :
                      printf("Masih kosong!");
                 break;
            }
+           getch();
+           printf("\n");
+     }
+     while(pil != 5);
+}
