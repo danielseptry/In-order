@@ -21,3 +21,5 @@ void tambah(Node **root, int databaru){
       }
       else if(databaru < (*root)->data)
             tambah(&(*root)->kiri, databaru);
+      else if(databaru > (*root)->data)
+            tambah(&(*root)->kanan, databaru);
