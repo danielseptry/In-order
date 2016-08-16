@@ -2,3 +2,4 @@
 #include<conio.h>
 
 typedef struct Node{
+	int data;  
