@@ -36,3 +36,5 @@ void preOrder(Node *root){
 }
 
 void inOrder(Node *root){
+      if(root != NULL){
+      inOrder(root->kiri);
