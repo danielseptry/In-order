@@ -34,3 +34,5 @@ void preOrder(Node *root){
       preOrder(root->kanan); 
       }
 }
+
+void inOrder(Node *root){
