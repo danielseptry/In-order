@@ -63,3 +63,27 @@ main(){
            printf("5. Exit\n");
            printf("Pilihan : "); scanf("%d", &pil);
            switch(pil){
+case 1 :
+                printf("Data baru : ");
+                scanf("%d", &data);
+                tambah(&pohon, data);
+                break;
+           case 2 :
+                if(pohon != NULL)
+                     preOrder(pohon);
+                else
+                     printf("Masih kosong!");
+                break;
+           case 3 :
+                if(pohon != NULL)
+                     inOrder(pohon);
+                else
+                      printf("Masih kosong!");
+                break;
+           case 4 :
+                if(pohon != NULL)
+                     postOrder(pohon);
+                else
+                     printf("Masih kosong!");
+                break;
+           }
