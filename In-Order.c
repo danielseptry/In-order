@@ -54,3 +54,12 @@ main(){
      Node *pohon, *t;
      pohon = NULL;
      do{
+           int data;
+           printf("MENU\n");
+           printf("1. Tambah\n");
+           printf("2. Lihat Pre-Order\n");
+           printf("3. Lihat In-Order\n");
+           printf("4. Lihat Post-Order\n");
+           printf("5. Exit\n");
+           printf("Pilihan : "); scanf("%d", &pil);
+           switch(pil){
