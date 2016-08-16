@@ -8,3 +8,4 @@ typedef struct Node{
 };
 
 void tambah(Node **root, int databaru){
+	if((*root) == NULL){ 
