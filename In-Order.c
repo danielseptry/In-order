@@ -19,3 +19,5 @@ void tambah(Node **root, int databaru){
             (*root)->kanan = NULL;
             printf("Data bertambah!");
       }
+      else if(databaru < (*root)->data)
+            tambah(&(*root)->kiri, databaru);
