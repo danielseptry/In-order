@@ -3,3 +3,6 @@
 
 typedef struct Node{
 	int data;  
+	Node *kiri;  
+  	Node *kanan; 
+};
